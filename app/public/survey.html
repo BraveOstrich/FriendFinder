@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <title>Friend Finder</title>
 </head>
@@ -18,11 +19,11 @@
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">Name (Required)</label>
-                <input type="name" class="form-control" id="nameInput" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                <input type="name" class="form-control" id="name-input" aria-describedby="emailHelp" placeholder="Enter Your Name">
             </div>
             <div class="form-group">
                     <label for="exampleInputEmail1">Link to a Photo (Required)</label>
-                    <input type="photo" class="form-control" id="photoLink" aria-describedby="emailHelp" placeholder="Photo Link">
+                    <input type="photo" class="form-control" id="photo-link" aria-describedby="emailHelp" placeholder="Photo Link">
             </div>
         </form>
 
@@ -34,11 +35,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -49,11 +50,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -64,11 +65,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -79,11 +80,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -94,11 +95,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -109,11 +110,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -124,11 +125,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -139,11 +140,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -154,11 +155,11 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
@@ -169,20 +170,69 @@
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
-                  <option>1 (Strongly Disagree)</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5 (Strongly Agree)</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
                 </select>
               </div>
         </div>
 
-        <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-top: 30px;">Submit</button>
+        <button type="button" id="submit" class="btn btn-primary btn-lg btn-block" style="margin-top: 30px;">Submit</button>
 
         <hr>
 
-        <footer><a href="#">API Friends List</a> | <a href="#">GitHub Repo</a></footer>
+        <footer><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></footer>
     </div>
 </body>
 </html>
+
+<script type= "text/javascript">
+
+  $("#submit").on("click", function(event){
+    event.preventDefault();
+
+    var friendsArray = [{
+    name: $("#name-input").val().trim(),
+    photo: $("#photo-link").val().trim(),
+    scores: [
+      $("#q1 select").val(),
+      $("#q2 select").val(),
+      $("#q3 select").val(),
+      $("#q4 select").val(),
+      $("#q5 select").val(),
+      $("#q6 select").val(),
+      $("#q7 select").val(),
+      $("#q8 select").val(),
+      $("#q9 select").val(),
+      $("#q10 select").val(),
+      ]
+    }];
+    console.log(friendsArray)
+  
+
+  $.post("/api/friends", friendsArray, function(data){
+    if(data){
+      alert("You're information has been stored, and we are locating your new friends!")
+    }
+
+    $("#name-input").val("");
+    $("#photo-link").val("");
+    $("#q1 select").val(""),
+    $("#q2 select").val(""),
+    $("#q3 select").val(""),
+    $("#q4 select").val(""),
+    $("#q5 select").val(""),
+    $("#q6 select").val(""),
+    $("#q7 select").val(""),
+    $("#q8 select").val(""),
+    $("#q9 select").val(""),
+    $("#q10 select").val("")
+  });
+
+});
+
+
+
+</script>
