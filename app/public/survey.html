@@ -16,6 +16,8 @@
         <h2 style="padding-top: 20px;">Survey Questions</h2>
         <hr>
         <h3>About You</h3>
+
+        <!-- Name & Image Input Form -->
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">Name (Required)</label>
@@ -29,9 +31,10 @@
 
         <hr>
 
+        <!-- Question One -->
         <div id="q1">
             <h4><strong>Question 1</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You are always up for an adventure or exploring the town?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -44,9 +47,10 @@
               </div>
         </div>
 
+        <!-- Question Two -->
         <div id="q2">
             <h4><strong>Question 2</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You enjoy trying new and exotic foods?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -59,9 +63,10 @@
               </div>
         </div>
 
+        <!-- Question Three -->
         <div id="q3">
             <h4><strong>Question 3</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You like to think things through instead of being impulsive?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -74,9 +79,10 @@
               </div>
         </div>
 
+        <!-- Question Four -->
         <div id="q4">
             <h4><strong>Question 4</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>The truth is more important than someone's feelings?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -89,9 +95,10 @@
               </div>
         </div>
 
+        <!-- Question Five -->
         <div id="q5">
             <h4><strong>Question 5</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You enjoy lazy days curled up with a book?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -104,9 +111,10 @@
               </div>
         </div>
 
+        <!-- Question Six -->
         <div id="q6">
             <h4><strong>Question 6</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You can sometimes sleep all day?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -119,9 +127,10 @@
               </div>
         </div>
 
+        <!-- Question Seven -->
         <div id="q7">
             <h4><strong>Question 7</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You could survive in the wilderness alone?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -134,9 +143,10 @@
               </div>
         </div>
 
+        <!-- Question Eight -->
         <div id="q8">
             <h4><strong>Question 8</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>Pineapple belongs on pizza?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -149,9 +159,10 @@
               </div>
         </div>
 
+        <!-- Question Nine -->
         <div id="q9">
             <h4><strong>Question 9</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You are a creative person?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -164,9 +175,10 @@
               </div>
         </div>
 
+        <!-- Question Ten -->
         <div id="q10">
             <h4><strong>Question 10</strong></h4>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+            <h5>You are smarter than most people?</h5>
             <div class="form-group col-md-3">
                 <select id="inputState" class="form-control form-control-sm">
                   <option selected>Select an Option</option>
@@ -179,21 +191,47 @@
               </div>
         </div>
 
+        <!-- Submit button -->
         <button type="button" id="submit" class="btn btn-primary btn-lg btn-block" style="margin-top: 30px;">Submit</button>
 
         <hr>
 
-        <footer><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></footer>
+        <!-- Footer Links -->
+        <footer><a href="/api/friends">API Friends List</a> | <a href="https://github.com/BraveOstrich/FriendFinder">GitHub Repo</a></footer>
+
+        <!-- Modal -->
+        <div id= "modal" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Here is your closest friend match!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4 id="match-name"></h4>
+                <div id="match-image"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </body>
 </html>
 
+<!-- Script -->
 <script type= "text/javascript">
 
+  // Button Click Event
   $("#submit").on("click", function(event){
     event.preventDefault();
 
-    var friendsArray = [{
+    // User Information Gathering
+    var infoInput = {
     name: $("#name-input").val().trim(),
     photo: $("#photo-link").val().trim(),
     scores: [
@@ -208,31 +246,33 @@
       $("#q9 select").val(),
       $("#q10 select").val(),
       ]
-    }];
-    console.log(friendsArray)
-  
+    };
+    console.log(infoInput);
+    
+    // Add User Information to Friends List
+    $.post("/api/friends", infoInput, function(data){
+        if(data){
+          console.log(data)
+        }
+      // Clear Form & Dropdowns
+      $("#name-input").val("");
+      $("#photo-link").val("");
+      $("#q1 select").val(""),
+      $("#q2 select").val(""),
+      $("#q3 select").val(""),
+      $("#q4 select").val(""),
+      $("#q5 select").val(""),
+      $("#q6 select").val(""),
+      $("#q7 select").val(""),
+      $("#q8 select").val(""),
+      $("#q9 select").val(""),
+      $("#q10 select").val("")
 
-  $.post("/api/friends", friendsArray, function(data){
-    if(data){
-      alert("You're information has been stored, and we are locating your new friends!")
-    }
-
-    $("#name-input").val("");
-    $("#photo-link").val("");
-    $("#q1 select").val(""),
-    $("#q2 select").val(""),
-    $("#q3 select").val(""),
-    $("#q4 select").val(""),
-    $("#q5 select").val(""),
-    $("#q6 select").val(""),
-    $("#q7 select").val(""),
-    $("#q8 select").val(""),
-    $("#q9 select").val(""),
-    $("#q10 select").val("")
-  });
+      // Modal Populate & Pop-Up
+      $("#match-name").html(data.matchName);
+      $("#match-image").attr("src", data.matchImage);    	
+      $("#modal").modal("show");
+    });
 
 });
-
-
-
 </script>
